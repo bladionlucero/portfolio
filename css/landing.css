@@ -6,3 +6,8 @@
   background-position: center center;
   background-size: cover;
 }
+
+.hero-content .hero-title{
+  color: white;
+  font-family: 'Yeseva One', cursive;
+}
