@@ -8,6 +8,25 @@
 }
 
 .hero-content .hero-title{
-  color: white;
+  color: #FDFDFD;
+  text-shadow: 0px 2px 3px #000000;
+  position: relative;
+  /*media query belongs here to make it responsive*/
+}
+
+h1.hero-title{
   font-family: 'Yeseva One', cursive;
+  font-size: 12rem;
+}
+
+h3.hero-title{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 6rem;
+}
+
+img.profpic {
+  height: auto; 
+  width: auto; 
+  max-width: 200px; 
+  max-height: 200px;
 }
