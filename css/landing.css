@@ -7,6 +7,22 @@
   background-size: cover;
 }
 
+.container-home {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.container-contact{
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
 .hero-content .hero-title{
   color: #FDFDFD;
   text-shadow: 0px 2px 3px #000000;
@@ -29,4 +45,37 @@ img.profpic {
   width: auto; 
   max-width: 200px; 
   max-height: 200px;
+}
+
+div.float-right {
+  float: right;
+}
+
+/*Footer*/
+
+div.section-footer {
+  background-color: #222222;
+  color: #FDFDFD;
+  padding-bottom: 10px;
+}
+
+.footer-type {
+  margin-top: 12px;
+}
+
+.footer-display{
+  display: inline;
+  padding-left: 12px;
+}
+
+.footer-cr {
+  letter-spacing: 3px;
+}
+
+a.footer {
+  color: #FDFDFD;
+}
+
+.float-right {
+  text-align: right;
 }
