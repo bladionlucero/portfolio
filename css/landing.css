@@ -7,14 +7,6 @@
   background-size: cover;
 }
 
-.container-home {
-  position: relative;
-  width: 100%;
-  max-width: 800px;
-  margin: 0 auto;
-  box-sizing: border-box;
-}
-
 .container-contact{
   position: relative;
   width: 100%;
@@ -49,6 +41,20 @@ img.profpic {
 
 div.float-right {
   float: right;
+}
+
+/*Contact*/
+
+.container-home {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.contact-title {
+  text-align: center;
 }
 
 /*Footer*/
