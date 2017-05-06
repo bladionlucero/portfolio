@@ -31,7 +31,7 @@
 }
 
 h1.hero-title{
-  font-family: 'Yeseva One', cursive;
+  font-family: 'Yeseva One', serif;
   font-size: 12rem;
   word-break: break-word;
 }
@@ -41,15 +41,40 @@ h3.hero-title{
   font-size: 6rem;
 }
 
+/*NavBar*/
+
+/*.container-navbar {
+}*/
+
+.navbar-list {
+  text-align: center;
+  position: relative;
+  padding: 35px 0 25px 0;
+  border-bottom: 3px solid black;
+}
+
+.navbar-item {
+  display: inline;
+  padding-left: 50px;
+}
+
+a.navbar-link {
+  text-decoration: none;
+}
+
+a.button-nav {
+  position: absolute;
+  right: 0;
+  bottom: 8px;
+}
+
+/*About Me*/
+
 img.profpic {
   height: auto; 
   width: auto; 
   max-width: 200px; 
   max-height: 200px;
-}
-
-div.float-right {
-  float: right;
 }
 
 /*Contact*/
