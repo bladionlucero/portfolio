@@ -76,6 +76,20 @@ a.button-nav {
   bottom: 8px;
 }
 
+/*Main Landing*/
+
+.case-studies {
+  padding: 30px 0 70px 0;
+}
+
+.case-study {
+  padding-bottom: 70px;
+}
+
+.me_blurb {
+  padding-bottom: 50px;
+}
+
 /*About Me*/
 
 div.profpic {
