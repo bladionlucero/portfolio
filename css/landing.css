@@ -1,10 +1,14 @@
-.hero-content {
+.landing{
   position: relative;
   min-height: 665px;
   background-image: url(../assets/images/portfolio_bg.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: auto;
 }
 
 .container-contact{
@@ -22,9 +26,14 @@
   /*media query belongs here to make it responsive*/
 }
 
+.hero-content {
+  padding-left: 20px;
+}
+
 h1.hero-title{
   font-family: 'Yeseva One', cursive;
   font-size: 12rem;
+  word-break: break-word;
 }
 
 h3.hero-title{
