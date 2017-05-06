@@ -11,6 +11,14 @@
   overflow: auto;
 }
 
+.container-home {
+  position: relative;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
 .container-contact{
   position: relative;
   width: 100%;
@@ -102,12 +110,8 @@ div.center {
 
 /*Contact*/
 
-.container-home {
-  position: relative;
-  width: 100%;
-  max-width: 800px;
-  margin: 0 auto;
-  box-sizing: border-box;
+.section-contact{
+  margin: 30px 0 50px 0;
 }
 
 .contact-title {
