@@ -68,17 +68,23 @@ h3.hero-title{
 
 .navbar-item {
   display: inline;
-  padding-left: 50px;
+}
+
+.navbar-item1 {
+  padding-right: 20px;
+}
+
+.navbar-item2 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.navbar-item3 {
+  padding-left: 20px;
 }
 
 a.navbar-link {
   text-decoration: none;
-}
-
-a.button-nav {
-  position: absolute;
-  right: 0;
-  bottom: 8px;
 }
 
 /*Main Landing*/
